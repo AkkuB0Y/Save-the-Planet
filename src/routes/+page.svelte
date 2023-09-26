@@ -172,25 +172,24 @@
 <!-- HTML Stuff -->
 
 
-<img alt="darkmode" src="https://www.pngmart.com/files/13/Crescent-Moon-Transparent-Images-PNG.png" class = "dmbutton" id = "icon">
+<nav>
+    <div style="text-align:right; margin: 1rem 0.5rem">
+        <a style = "margin: 0.2%" class = "link-btn" target = "_blank" href ="https://support.worldwildlife.org/site/SPageServer?pagename=main_monthly&s_src=AWE2306OQ18299A01179RX&s_subsrc=topnav&_gl=1*1a5b50u*_ga*MTU4NjQ2MTgzMy4xNjg2Nzc1MjU1*_ga_FK6M9RK84Z*MTY4Njc4Mjk2Ny4zLjEuMTY4Njc4NDk1NC42MC4wLjA.&_ga=2.26611893.985189242.1686775255-1586461833.1686775255">
+        Donate</a>
+        <a style = "margin: 0.2%" class = "link-btn" target = "_blank" href ="https://youtu.be/PkADl0HubMY"> Source </a>
+        <img alt="darkmode" src="https://www.pngmart.com/files/13/Crescent-Moon-Transparent-Images-PNG.png" class = "dmbutton" id = "icon" style = "vertical-align: middle">
+    </div>
+    
+</nav>
 
 <h1 style="font-size: 3rem; margin: 0.75rem 2rem" class = "txtcolor">
     <center>Let's Save Our <span class = "txtcolor2">Planet.</span></center>
 </h1>
-<p style="font-size: 1rem" class="txtcolor"><center>As our society progresses technologically, we often fail to consider the most vulnerable inhabitants of our planet - Animals.
-    As such, we have created this little photo gallery to showcase some of the most beautiful yet threatened species on this planet we call home. Drag anywhere to see the gallery!
-</center></p>
-
-<div style="text-align:center; margin: 2.5rem 0rem">
-    <a style = "margin: 0% 40.5%" class = "link-btn" target = "_blank" href ="https://support.worldwildlife.org/site/SPageServer?pagename=main_monthly&s_src=AWE2306OQ18299A01179RX&s_subsrc=topnav&_gl=1*1a5b50u*_ga*MTU4NjQ2MTgzMy4xNjg2Nzc1MjU1*_ga_FK6M9RK84Z*MTY4Njc4Mjk2Ny4zLjEuMTY4Njc4NDk1NC42MC4wLjA.&_ga=2.26611893.985189242.1686775255-1586461833.1686775255">
-        Donate</a>
-    <a style = "margin: 0% 51.5%" class = "link-btn-2" target = "_blank" href ="https://youtu.be/PkADl0HubMY"> Source </a>
-</div>
 
 <img alt="drag anywhere to move" src="https://icons.veryicon.com/png/o/miscellaneous/small-face-icon/left-arrow-28.png" class = "dragthing" draggable="false">
 <p class = "txtdragthing"> Click and Drag!</p>
 
-<div id="image-track" data-mouse-down-at="0" data-prev-percentage="0" class = "anti-highlight" style = "margin: 1rem 1rem; padding-left: 10px">
+<div id="image-track" data-mouse-down-at="0" data-prev-percentage="0" class = "anti-highlight" style = "margin-top: 2rem; padding-left: 10px">
     {#each Object.entries(animalData) as [id, data]}
         <div class="image-container">
             <img
@@ -206,6 +205,11 @@
         </div>
     {/each}
 </div>
+
+<p style="font-size: 1rem; top: 30%" class="txtcolor"><center>As our society progresses technologically, we often fail to consider the most vulnerable inhabitants of our planet - Animals.
+    As such, I have created this little photo gallery to showcase some of the most beautiful yet threatened species on this planet we call home. Drag anywhere to see the gallery!
+</center></p>
+
 
 
 

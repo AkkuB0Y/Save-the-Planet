@@ -30,6 +30,10 @@ body {
 
 .txtcolor {
     color: var(--txt);
+    min-height: max-content;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
 }
 
 .txtcolor2 {
@@ -41,7 +45,7 @@ body {
     opacity: 0.85;
     position: absolute;
     display: flex;
-    top: 60%;
+    top: 70%;
     left: 10%;
     width: 100px;
     cursor: grab;
@@ -57,7 +61,7 @@ body {
     opacity: 0.85;
     position: absolute;
     display: flex;
-    top: 72%;
+    top: 82%;
     left: 9%;
     width: 200px;
     cursor: grab;
@@ -68,19 +72,20 @@ body {
 .dmbutton {
     flex: 1;
     position: relative;
-    width: 30px;
+    width: 40px;
     cursor: pointer;
-    padding-top: 1rem;
-    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    padding-left: 0.5rem;
 }
 
 #icon {
-    width: 30px;
+    width: 40px;
 }
 
 
 .anti-highlight {
     user-select: none;
+    display: block;
 }
 
 #image-track>.image-container>.image {
@@ -119,35 +124,26 @@ body {
     overflow-x: hidden;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    
+    min-height: max-content;
 }
 
 .link-btn {
-    display: flex;
-    position: absolute;
-    top: 31%;
-    
-    background-color: var(--txt2);
-    color: var(--txt3);
-    padding: 15px 30px;
-    text-decoration: none;
-    border-radius: 20px;
-    text-align: center;
-    transition: .2s ease;
-}
-
-.link-btn-2 {
-    display: flex;
-    position: absolute;
-    top: 31%;
 
     background-color: var(--txt2);
     color: var(--txt3);
-    padding: 15px 30px;
+    padding: 8px 15px;
     text-decoration: none;
-    border-radius: 20px;
-    text-align: center;
+    text-align: right;
     transition: .2s ease;
+    text-size-adjust: small;
+
+    margin-bottom: 2rem;
+    margin-top: 0rem;
+    align-items: center;
+    line-height: 2rem;
+    border-radius: 20px;
+
+    display: inline-block;
 }
 
 .link-btn:hover {
@@ -155,10 +151,6 @@ body {
     border-radius: 24px;
 }
 
-.link-btn-2:hover {
-    background-color: var(--hover);
-    border-radius: 24px;
-}
 
 .learn-more-overlay {
     width: 100%;
