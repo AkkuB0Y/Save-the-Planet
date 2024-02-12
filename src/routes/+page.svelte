@@ -176,7 +176,7 @@
     <div style="text-align:right; margin: 1rem 0.5rem">
         <a style = "margin: 0.2%" class = "link-btn" target = "_blank" href ="https://support.worldwildlife.org/site/SPageServer?pagename=main_monthly&s_src=AWE2306OQ18299A01179RX&s_subsrc=topnav&_gl=1*1a5b50u*_ga*MTU4NjQ2MTgzMy4xNjg2Nzc1MjU1*_ga_FK6M9RK84Z*MTY4Njc4Mjk2Ny4zLjEuMTY4Njc4NDk1NC42MC4wLjA.&_ga=2.26611893.985189242.1686775255-1586461833.1686775255">
         Donate</a>
-        <a style = "margin: 0.2%" class = "link-btn" target = "_blank" href ="https://youtu.be/PkADl0HubMY"> Source </a>
+        <a style = "margin: 0.2%" class = "link-btn" target = "_blank" href ="https://github.com/AkkuB0Y/Save-the-Planet"> Source </a>
         <img alt="darkmode" src="https://www.pngmart.com/files/13/Crescent-Moon-Transparent-Images-PNG.png" class = "dmbutton" id = "icon" style = "vertical-align: middle">
     </div>
     
